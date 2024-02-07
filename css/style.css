@@ -324,17 +324,13 @@ body.opened .beker_tm_topbar{
 .beker_tm_topbar .in{
 	padding: 40px 0px;
 	
+	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.beker_tm_topbar.animate .in{
-	background-color: #fff;
-	padding: 20px 0px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,.08);
-} 
 .beker_tm_all_wrap.animate .beker_tm_topbar{
 	top: 0px;
 	transition-delay: 1.2s;
@@ -366,7 +362,7 @@ body.opened .beker_tm_topbar{
 }
 .beker_tm_topbar ul li a{
 	text-decoration: none;
-	color: #7E7E7E;
+	color: rgb(39, 35, 35);
 	font-size: 16px;
 	font-weight: 500;
 	display: block;
@@ -380,24 +376,24 @@ body.opened .beker_tm_topbar{
 	        transition: all .3s ease;
 }
 .beker_tm_topbar ul li a:hover{
-	color: #7299aa;
+	color: white;
 }
 .beker_tm_topbar ul li:last-child a{
-	border: 2px solid #7E7E7E;
+	border: 2px solid #302a2a;
 	padding: 4px 27px;
 	border-radius: 50px;
 }
 .beker_tm_topbar ul li:last-child a:hover,
 .beker_tm_topbar ul li:last-child.current a{
-	border-color: #7299aa;
-	background-color: #7299aa;
+	border-color: #302a2a;
+	background-color: #302a2a;
 	color: #fff;
 }
 .beker_tm_topbar ul li.current a{
-	color: #7299aa ;
+	color: white ;
 }
 .beker_tm_topbar ul li a:hover{
-	color: #7299aa;
+	color: white;
 }
 
 /*---------------------------------------------------*/
